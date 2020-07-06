@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #cddcdc;
+  background-image: radial-gradient(
+      at 50% 100%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    );
+  background-blend-mode: screen, overlay;
+}
+table {
+  border-spacing: 0;
+  margin: 0 auto;
+}
+td {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+.wall {
+  background-color: #003b36;
+}
+.start {
+  background-color: green;
+}
+.goal {
+  background-image: url(./goal.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#person {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  position: absolute;
+  left: 362px;
+  top: 90px;
+}
+.img-person {
+  width: 30px;
+  height: 30px;
+}
+a {
+  color: #d0d1d3;
+}
+.ketqua {
+  display: none;
+}
